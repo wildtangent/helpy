@@ -32,23 +32,29 @@
     <link href="css/base.css" rel="stylesheet">
   </head>
   <body>
-    <div id="top-bar" class="jumbotron">
+    <nav id="top-bar" class="jumbotron navbar navbar-default">
       <div class="container">
-        <div class="row">
-          <div class="logo col-md-3">
-            Helpy
-          </div>
-          <div class="col-md-9 text-right">
-            <ul class="nav nav-pills pull-right">
-              <li role="presentation"><a href="#top">Home</a></li>
-              <li role="presentation"><a href="#features">Features</a></li>
-              <li role="presentation"><a href="http://demo.helpy.io/">Support</a></li>
-              <li role="presentation"><a href="#install">How to Install</a></li>
-            </ul>
-          </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="#">Helpy</a>
         </div>
-      </div>
-    </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
     <div id="browser-bar" class="jumbotron">
       <div class="container">
