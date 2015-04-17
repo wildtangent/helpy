@@ -1,10 +1,23 @@
+
+h1 {
+	margin-bottom: 40px;
+}
+
+h2 {
+	margin-bottom: 60px;
+}
+
 #top-bar {
 	margin-bottom: 0px;
+	background-color: white;
+}
+
+#top-bar.jumbotron {
+	padding-top: 25px;
 }
 
 #browser-bar {
   background-color: white;
-  z-index: 1;
 }
 
 #content-bar {
@@ -13,7 +26,14 @@
 	color: white;
 }
 
-.carousel-control.right{
-	right:0;
-	left:auto;
+.more-features {
+	margin-bottom: 20px;
+}
+
+.logo {
+  font-family: 'Shadows Into Light', sans-serif;
+  padding: 0px;
+  font-size: 400%;
+  font-weight: bold;
+  margin-top: -30px;
 }
