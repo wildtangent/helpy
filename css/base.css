@@ -1,6 +1,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    font-family: "Lato";
 }
 
 h1 {
@@ -10,6 +11,11 @@ h1 {
 h2 {
 	margin-bottom: 60px;
 }
+
+.navbar-brand.logo {
+	font-family: "Lobster";
+}
+
 
 #top-bar {
 	color:  #000;
