@@ -1,3 +1,5 @@
+/* @override http://localhost:4000/css/base.css */
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -18,9 +20,9 @@ h2 {
 
 
 #top-bar {
-	color:  #000;
+	color:  #fff;
 	margin-bottom: 0px;
-	background-color: white;
+	background-color: #fff;
 	border-bottom: 0px;
 	padding-bottom: 0px;
 }
@@ -30,7 +32,7 @@ h2 {
 }
 
 #browser-bar {
-  background-color: #d3e5ff;
+  background-color: #fff;
   margin-bottom: 0px;
 }
 
@@ -41,8 +43,22 @@ h2 {
 	padding-bottom: 0px;
 }
 
+.browser-window{
+	margin:20px;
+	margin-bottom: 0px;
+	border: 1px solid #eee;
+	width:80%;
+	height:100%;
+	display:inline-block;
+	border-radius:5px;
+	background-color:#fff}
+
+.function-row {
+	margin-bottom: 60px;
+}
+
 .more-features {
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 
 .main-feature {
