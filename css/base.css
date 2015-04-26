@@ -6,6 +6,10 @@ html, body {
     font-family: "Lato";
 }
 
+body {
+	padding-top: 150px;
+}
+
 h1 {
 	margin-bottom: 40px;
 }
@@ -33,6 +37,7 @@ h2 {
 
 #browser-bar {
   background-color: #fff;
+  padding-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -41,6 +46,10 @@ h2 {
 	z-index: 10;
 	color: white;
 	padding-bottom: 0px;
+}
+
+#content-bar h1 {
+	font-weight: normal;
 }
 
 .browser-window{
