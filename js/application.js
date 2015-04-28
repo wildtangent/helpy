@@ -5,7 +5,7 @@ $(document).ready(function(){
       $(this).click(function(){
         var scrollTarget=$(this).data("target");
         $('html,body').animate({
-          scrollTop: $(scrollTarget).offset().top},'slow');
+          scrollTop: $(scrollTarget).offset().top-40},'slow');
         });
   });
 });

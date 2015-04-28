@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-	padding-top: 150px;
+	padding-top: 100px;
 }
 
 h1 {
@@ -20,7 +20,16 @@ h2 {
 
 .navbar-brand.logo {
 	font-family: "Lobster";
+	font-size: 32px;
+	width: 300px;
+	
 }
+
+.brand-mark {
+	margin-top: -15px;
+	margin-right: 10px;
+}
+
 
 
 #top-bar {
@@ -33,6 +42,11 @@ h2 {
 
 #top-bar.jumbotron {
 	padding-top: 25px;
+	
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(196,196,196,1);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(196,196,196,1);
+	box-shadow: 0px 0px 12px 0px rgba(196,196,196,1);
+
 }
 
 #browser-bar {
@@ -42,7 +56,7 @@ h2 {
 }
 
 #content-bar {
-	background-color: #00435a;
+	background-color: #03BDFB;
 	z-index: 10;
 	color: white;
 	padding-bottom: 0px;
