@@ -2,8 +2,6 @@
 layout: default
 ---
 
-
-
     <div id="browser-bar" class="jumbotron">
       <div class="container">
         <div class="row">
@@ -11,7 +9,7 @@ layout: default
           <div id="main-panel" class="col-md-12 col-lg-10 text-center">
             <h1>Open source help desk software that will delight your customers, and your wallet</h1>
 
-            <div id="browser-slides" class="browser-window hidden-sm hidden-xs">
+            <div id="browser-slides" class="browser-window">
               <div class="top-bar">
                 <div class="circles text-left">
                    <div class="circle circle-red"></div>
@@ -20,50 +18,11 @@ layout: default
                 </div>
               </div>
               <div class="content">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="6000">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                  </ol>
-
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <img src="images/helpy-1.png" width='100%'>
-                    </div>
-                    <div class="item">
-                      <img src="images/helpy-2.png" width='100%'>
-                    </div>
-                    <div class="item">
-                      <img src="images/helpy-3.png" width='100%'>
-                    </div>
-                    <div class="item">
-                      <img src="images/helpy-4.png" width='100%'>
-                    </div>
-                    <div class="item">
-                      <img src="images/helpy-5.png" width='100%'>
-                    </div>
-                  </div>
-
-                  <!-- Controls -->
-                  <!--<a class="left" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>-->
-                </div>
-
+                <img src="images/helpy-4.png" style="max-width:100%;height:auto;">
               </div>
             </div> <!-- end browser slides -->
 
-            <div id="static-browser" class="browser-window hidden-md hidden-lg">
+            <!--<div id="static-browser" class="browser-window hidden-md hidden-lg">
               <div class="top-bar">
                 <div class="circles text-left">
                    <div class="circle circle-red"></div>
@@ -72,7 +31,7 @@ layout: default
                 </div>
               </div>
               <div class="content text-left">
-                <img src="images/helpy-4.png" width='100%'>
+                <img src="images/helpy-4.png" style="max-width:100%;height:auto;">
               </div>
             </div><!-- end static browser -->
 
@@ -81,8 +40,8 @@ layout: default
         </div>
       </div>
     </div>
-
-    <div id="content-bar" class="jumbotron">
+    <div class="solution"></div>
+    <div id="content-bar" class="jumbotron solution">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -95,15 +54,15 @@ layout: default
             <div><img src="images/tickets.png" class="img-circle"></div>
           </div>
           <div class="col-md-6 col-sm-9">
-            <h3>Ticketing</h3>
-            <p>Helpy features a complete ticketing system, fully integrated with customer support email.</p>
+            <h3><a href="/tickets">Ticketing</a></h3>
+            <p>Helpy features a complete ticketing system, fully integrated with customer support email. <a href="/tickets">See ticketing</a></p>
           </div>
         </div>
 
         <div class="row function-row">
           <div class="col-md-6 col-sm-9 text-right">
-            <h3>Knowledgebase</h3>
-            <p>Easily create a searchable knowledgebase to cut down on support tickets.</p>
+            <h3><a href="/knowledgebase">Knowledgebase</a></h3>
+            <p>Easily create a searchable knowledgebase to cut down on support tickets. <a href="/knowledgebase">Learn about the Knowledgebase</a></p>
           </div>
           <div class="main-feature col-md-6 col-sm-3 hidden-xs">
             <img src="images/knowledgebase.png" class="img-circle">
@@ -116,15 +75,15 @@ layout: default
             <img src="images/discussion.png" class="img-circle">
           </div>
           <div class="col-md-6 col-sm-9">
-            <h3>Community</h3>
-            <p>Your customers can post their questions into the community as well, getting answers and tips from other users!</p>
+            <h3><a href="/community">Community</a></h3>
+            <p>Your customers can post their questions into the community as well, getting answers and tips from other users! <a href="/community">Community features</a></p>
           </div>
         </div
         >
       </div>
     </div>
 
-    <div id="more-features" class="container">
+    <div id="more-features" class="container features">
       <div class="row">
         <div class="col-md-12 text-center">
           <h2>More Reasons to Put Helpy to Work for You</h2>
@@ -158,15 +117,4 @@ layout: default
       </div>
     </div>
 
-    <div id="how-to-get-it" class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2>How do I get it?</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <p>Helpy is open source software, and is made available on Github.  Feel free to grab a copy, install and play with it.  </p>
-        </div>
-      </div>
-    </div>
+    {% include getit.html %}
