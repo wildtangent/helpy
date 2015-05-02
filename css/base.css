@@ -21,7 +21,7 @@ h2 {
 .navbar-brand.logo {
 	font-family: "Lobster";
 	font-size: 32px;
-	width: 300px;
+	width: 200px;
 	
 }
 
@@ -80,6 +80,10 @@ h2 {
 	margin-bottom: 60px;
 }
 
+.feature-row {
+	margin-bottom: 40px;
+}
+
 .more-features {
 	margin-bottom: 60px;
 }
@@ -99,7 +103,7 @@ h2 {
   font-size: 300%;
   font-weight: bold;
   margin-top: 8px;
-  padding-left: 30px;
+  padding-left: 0px;
   padding-right: 60px;
 }
 
