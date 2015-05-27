@@ -18,6 +18,11 @@ h2 {
 	margin-bottom: 60px;
 }
 
+hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 .navbar-brand.logo {
 	font-family: "Lobster";
 	font-size: 32px;
@@ -70,7 +75,7 @@ h2 {
 	margin:20px;
 	margin-bottom: 0px;
 	border: 1px solid #eee;
-	width:80%;
+	width:100%;
 	height:100%;
 	display:inline-block;
 	border-radius:5px;
