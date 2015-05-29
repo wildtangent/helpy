@@ -1,0 +1,35 @@
+{
+  "name": "devices.css",
+  "homepage": "http://marvelapp.github.io/devices.css/",
+  "authors": [
+    "Marvelapp Prototyping <support@marvelapp.com>"
+  ],
+  "description": "Pure CSS implementation of various mobile devices",
+  "main": "assets/devices.min.css",
+  "keywords": [
+    "iphone",
+    "nexus",
+    "android",
+    "htc",
+    "ipad",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "f9d57db3e1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f9d57db3e1ba2bbd2acf9c98ed0d6eb41bde7388"
+  },
+  "_source": "git://github.com/marvelapp/devices.css.git",
+  "_target": "*",
+  "_originalSource": "marvelapp/devices.css",
+  "_direct": true
+}
