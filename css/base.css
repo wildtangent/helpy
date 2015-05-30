@@ -71,6 +71,17 @@ hr {
 	font-weight: normal;
 }
 
+#demo-bar {
+	color: white;
+	background-color: #FF9C34;
+	height: 300px;
+}
+
+#footer-bar {
+	color: #999;
+	background-color: #333;
+}
+
 .browser-window{
 	margin:20px;
 	margin-bottom: 0px;
@@ -87,6 +98,10 @@ hr {
 
 .feature-row {
 	margin-bottom: 40px;
+}
+
+.device-container {
+	margin: 0 auto;
 }
 
 .more-features {
@@ -119,3 +134,77 @@ ol.carousel-indicators {
 #static-browser.browser-window {
 	width: 700px;
 }
+
+.middle > img {
+	margin: 0 auto;
+}
+
+.ios-device {
+	margin: 0 auto;
+}
+
+/*** MEDIA QUERIES ***/
+
+@media(max-width:767px){
+	.device-container {
+		padding-left: 0%;
+	}
+	
+}
+
+@media(min-width:768px){
+	.middle {
+	  height: 200px;
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
+	}	
+	.row.feature-row {
+    	min-height: 200px;
+	}
+	.phone-6--large {
+		width: 201px;
+		height: 414px;
+	}
+	.device-container {
+		padding-left: 0%;
+	
+		margin: 0 auto;
+		text-align: center;
+}
+}
+
+@media(min-width:992px){
+	.middle {
+	  height: 300px;
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
+	}	
+	.row.feature-row {
+    	min-height: 300px;
+	}
+	.phone-6--large {
+		width: 268px;
+		height: 552px;
+	}
+
+}
+
+@media(min-width:1200px){
+	.middle {
+	  height: 400px;
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
+	}
+	
+	.row.feature-row {
+    	min-height: 400px;
+	}
+	.phone-6--large {
+		width: 268px;
+		height: 552px;
+	}
+}
+
