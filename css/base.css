@@ -54,6 +54,10 @@ hr {
 
 }
 
+.jumbotron {
+	margin-bottom: 0px;
+}
+
 #browser-bar {
   background-color: #fff;
   padding-top: 0px;
@@ -146,6 +150,27 @@ ol.carousel-indicators {
 /*** MEDIA QUERIES ***/
 
 @media(max-width:767px){
+
+.jumbotron h1 {
+		margin-bottom: 20px;
+		font-size: 30px;
+	}
+	.jumbotron h2 {
+		margin-bottom: 40px;
+		font-size: 18px;
+	}
+	.jumbotron h3 {
+		margin-top: 0px;
+		font-size: 14px
+	}
+	.jumbotron h4{
+		
+	}
+	.jumbotron p {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
 	.device-container {
 		padding-left: 0%;
 	}
@@ -153,6 +178,26 @@ ol.carousel-indicators {
 }
 
 @media(min-width:768px){
+
+	.jumbotron h1 {
+		margin-bottom: 20px;
+		font-size: 40px;
+	}
+	.jumbotron h2 {
+		margin-bottom: 40px;
+		font-size: 23px;
+	}
+	.jumbotron h3 {
+		font-size: 17px
+	}
+	.jumbotron h4{
+		
+	}
+	.jumbotron p {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
 	.middle {
 	  height: 200px;
 	  display: flex;
@@ -171,10 +216,13 @@ ol.carousel-indicators {
 	
 		margin: 0 auto;
 		text-align: center;
-}
+	}
 }
 
 @media(min-width:992px){
+
+
+
 	.middle {
 	  height: 300px;
 	  display: flex;
@@ -192,6 +240,26 @@ ol.carousel-indicators {
 }
 
 @media(min-width:1200px){
+	.jumbotron h1 {
+		margin-bottom: 20px;
+		font-size: 60px;
+	}
+	.jumbotron h2 {
+		margin-bottom: 50px;
+		font-size: 30px;
+	}
+	.jumbotron h3 {
+		font-size: 24px
+	}
+	.jumbotron h4{
+		
+	}
+	.jumbotron p {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+
 	.middle {
 	  height: 400px;
 	  display: flex;

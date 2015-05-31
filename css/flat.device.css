@@ -1,0 +1,120 @@
+#devices {
+  font-size:22px;
+  margin: 0 auto;
+}
+
+#device {
+	margin: 1em auto 1em;
+	background-color: #eeeeed;
+	background-image: -webkit-gradient(linear, left center, right center, from(rgb(246, 245, 247)), to(rgb(230, 232, 228)));
+	background-image: -webkit-linear-gradient(left, rgb(246, 245, 247), rgb(230, 232, 228));
+	background-image: -moz-linear-gradient(left, rgb(246, 245, 247), rgb(230, 232, 228));
+	background-image: -o-linear-gradient(left, rgb(246, 245, 247), rgb(230, 232, 228));
+	background-image: -ms-linear-gradient(left, rgb(246, 245, 247), rgb(230, 232, 228));
+	background-image: linear-gradient(left, rgb(246, 245, 247), rgb(230, 232, 228));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#f6f5f7', EndColorStr='#e6e8e4');
+	border:0.126em solid #f1f1f1;
+	border-radius: 1.512em;
+	width: 11.592em;
+	height: 23.058em;
+	padding:1.701em 0 0;
+	box-shadow: 0px 6px 0px #c5c3ba, 10px 10px 0px 10px rgba(0,0,0,0.9);
+}
+
+#devicetop {
+	background-color: #aba99f;
+	width: 1.89em;
+	height: 0.315em;
+	border:0.126em solid #c5c3ba;
+	border-radius: 0.315em;
+	margin: 0 auto 0.756em;
+}
+
+#screen {
+	background-color: #c5c3ba;
+	margin: 0 auto 0;
+	border: 0.189em solid #aba99f;
+	border-radius: 0.189em;
+	width:10.08em;
+	height:17.892em;
+	overflow: hidden;
+}
+
+iframe {
+    -moz-transform: scale(0.696);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.696);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.696);
+    -webkit-transform-origin: 0 0;
+    width:320px;
+	height:568px;
+}
+
+#button {
+	margin: 0.63em auto 0;
+	background-color: #f2f2f2;
+	background-image: -webkit-gradient(radial, 50% 50%,0,50% 50%,200, from(rgb(239, 240, 238)), to(rgb(246, 245, 247)));
+	background-image: -webkit-radial-gradient(50% 50%, rgb(246, 245, 247), rgb(239, 240, 238));
+	background-image: -moz-radial-gradient(50% 50%, rgb(246, 245, 247), rgb(239, 240, 238));
+	background-image: -o-radial-gradient(50% 50%, rgb(246, 245, 247), rgb(239, 240, 238));
+	background-image: -ms-radial-gradient(50% 50%, rgb(246, 245, 247), rgb(239, 240, 238));
+	background-image: radial-gradient(50% 50%, rgb(246, 245, 247), rgb(239, 240, 238));
+	width: 1.071em;
+	height: 1.071em;
+	border-radius: 50%;
+	padding: 0.567em;
+	cursor: hand;
+}
+
+#device.black {
+	background-color: #111111;
+	background-image: -webkit-gradient(linear, left center, right center, from(rgb(34, 34, 34)), to(rgb(0, 0, 0)));
+	background-image: -webkit-linear-gradient(left, rgb(34, 34, 34), rgb(0, 0, 0));
+	background-image: -moz-linear-gradient(left, rgb(34, 34, 34), rgb(0, 0, 0));
+	background-image: -o-linear-gradient(left, rgb(34, 34, 34), rgb(0, 0, 0));
+	background-image: -ms-linear-gradient(left, rgb(34, 34, 34), rgb(0, 0, 0));
+	background-image: linear-gradient(left, rgb(34, 34, 34), rgb(0, 0, 0));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#222222', EndColorStr='#000000');
+	border:0.126em solid #555;
+	box-shadow: 0px 3px 0px #444, -15px 5px 40px 5px rgba(68, 68, 68, 0.6), -60px 20px 90px rgba(0,0,0,0.2);
+}
+
+#device.black #devicetop {
+	background-color: #000;
+	border:0.126em solid #222;
+}
+
+#device.black #screen {
+	background-color: #555;
+	border: 0.189em solid #000;
+}
+
+#device.black #button {
+	background-color: #191919;
+	background-image: -webkit-gradient(radial, 50% 50%,0,50% 50%,200, from(rgb(17, 17, 17)), to(rgb(34, 34, 34)));
+	background-image: -webkit-radial-gradient(50% 50%, rgb(34, 34, 34), rgb(17, 17, 17));
+	background-image: -moz-radial-gradient(50% 50%, rgb(34, 34, 34), rgb(17, 17, 17));
+	background-image: -o-radial-gradient(50% 50%, rgb(34, 34, 34), rgb(17, 17, 17));
+	background-image: -ms-radial-gradient(50% 50%, rgb(34, 34, 34), rgb(17, 17, 17));
+	background-image: radial-gradient(50% 50%, rgb(34, 34, 34), rgb(17, 17, 17));
+	border-left:0.126em solid #333;
+	border-top:0.126em solid #333;
+	border-right:0.126em solid #444;
+	border-bottom:0.126em solid #444;
+}
+
+#device.gold {
+	border-left:   0.126em solid #eeddc9;
+	border-top:    0.126em solid #eeddc9;
+	border-right:  0.126em solid #f3e1cb;
+	border-bottom: 0.126em solid #f3e1cb;
+	box-shadow: 0px 3px 0px #e3c8ad, -15px 5px 40px 5px rgba(227, 200, 173, 0.6), -60px 20px 90px rgba(0,0,0,0.1);
+}
+
+#device.gold #button {
+	border-left:0.2em solid #eeddc9;
+	border-top:0.2em solid #eeddc9;
+	border-right:0.2em solid #f8e7d3;
+	border-bottom:0.2em solid #f8e7d3;
+}
