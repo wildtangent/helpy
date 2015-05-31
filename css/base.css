@@ -35,7 +35,9 @@ hr {
 	margin-right: 10px;
 }
 
-
+#main-panel {
+	margin-top: -30px
+}
 
 #top-bar {
 	color:  #fff;
@@ -43,11 +45,10 @@ hr {
 	background-color: #fff;
 	border-bottom: 0px;
 	padding-bottom: 0px;
+	padding-top: 20px;
 }
 
 #top-bar.jumbotron {
-	padding-top: 25px;
-
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(196,196,196,1);
 	-moz-box-shadow: 0px 0px 8px 0px rgba(196,196,196,1);
 	box-shadow: 0px 0px 12px 0px rgba(196,196,196,1);
@@ -69,6 +70,10 @@ hr {
 	z-index: 10;
 	color: white;
 	padding-bottom: 0px;
+}
+
+#more-features.jumbotron {
+	background-color: #fff;
 }
 
 #content-bar h1 {
@@ -151,7 +156,11 @@ ol.carousel-indicators {
 
 @media(max-width:767px){
 
-.jumbotron h1 {
+	.more-features {
+		margin-bottom: 25px;
+	}
+
+	.jumbotron h1 {
 		margin-bottom: 20px;
 		font-size: 30px;
 	}
