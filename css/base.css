@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-	padding-top: 100px;
+/*	padding-top: 100px;*/
 }
 
 h1 {
@@ -21,6 +21,32 @@ h2 {
 hr {
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+#intro {
+  background-color: #03BDFB;
+  background-size:cover;
+  position:relative;
+  height:100vh;
+}
+
+#intro-header {
+  position:absolute;
+  top: 50%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);
+}
+
+.wow {
+  visibility: hidden;
+}
+
+.jumbotron.white {
+  background-color: white;
 }
 
 .navbar-brand.logo {
@@ -83,7 +109,6 @@ hr {
 #demo-bar {
 	color: white;
 	background-color: #FF9C34;
-	height: 300px;
 }
 
 #footer-bar {
@@ -107,6 +132,7 @@ hr {
 
 .feature-row {
 	margin-bottom: 40px;
+	height: 500px;
 }
 
 .device-container {
@@ -156,14 +182,27 @@ ol.carousel-indicators {
 
 @media(max-width:767px){
 
+  .thelogo {
+    width: 60px;
+  }
+
 	.more-features {
 		margin-bottom: 25px;
 	}
+
+  .intro-h1 {
+    font-size: 18px;
+  }
 
 	.jumbotron h1 {
 		margin-bottom: 20px;
 		font-size: 30px;
 	}
+
+  .intro-h3 {
+    font-size: 16px;
+  }
+
 	.jumbotron h2 {
 		margin-bottom: 40px;
 		font-size: 18px;
@@ -173,7 +212,7 @@ ol.carousel-indicators {
 		font-size: 14px
 	}
 	.jumbotron h4{
-		
+
 	}
 	.jumbotron p {
 		font-size: 14px;
@@ -183,10 +222,14 @@ ol.carousel-indicators {
 	.device-container {
 		padding-left: 0%;
 	}
-	
+
 }
 
 @media(min-width:768px){
+
+  .thelogo {
+    width: 60px;
+  }
 
 	.jumbotron h1 {
 		margin-bottom: 20px;
@@ -200,7 +243,7 @@ ol.carousel-indicators {
 		font-size: 17px
 	}
 	.jumbotron h4{
-		
+
 	}
 	.jumbotron p {
 		font-size: 14px;
@@ -212,7 +255,7 @@ ol.carousel-indicators {
 	  display: flex;
 	  justify-content: center;
 	  flex-direction: column;
-	}	
+	}
 	.row.feature-row {
     	min-height: 200px;
 	}
@@ -222,7 +265,7 @@ ol.carousel-indicators {
 	}
 	.device-container {
 		padding-left: 0%;
-	
+
 		margin: 0 auto;
 		text-align: center;
 	}
@@ -230,14 +273,16 @@ ol.carousel-indicators {
 
 @media(min-width:992px){
 
-
+  .thelogo {
+    width: 80px;
+  }
 
 	.middle {
 	  height: 300px;
 	  display: flex;
 	  justify-content: center;
 	  flex-direction: column;
-	}	
+	}
 	.row.feature-row {
     	min-height: 300px;
 	}
@@ -249,7 +294,12 @@ ol.carousel-indicators {
 }
 
 @media(min-width:1200px){
-	.jumbotron h1 {
+
+  .thelogo {
+    width: 120px;
+  }
+
+  .jumbotron h1 {
 		margin-bottom: 20px;
 		font-size: 60px;
 	}
@@ -261,7 +311,7 @@ ol.carousel-indicators {
 		font-size: 24px
 	}
 	.jumbotron h4{
-		
+
 	}
 	.jumbotron p {
 		font-size: 18px;
@@ -275,7 +325,7 @@ ol.carousel-indicators {
 	  justify-content: center;
 	  flex-direction: column;
 	}
-	
+
 	.row.feature-row {
     	min-height: 400px;
 	}
@@ -284,4 +334,3 @@ ol.carousel-indicators {
 		height: 552px;
 	}
 }
-

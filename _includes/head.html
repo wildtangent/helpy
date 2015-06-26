@@ -18,7 +18,7 @@
 
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Lobster' rel='stylesheet' type='text/css'>
   <link href="/app/node_modules/browser.css/css/browser.min.css" rel="stylesheet">
-  <script src="/app/components/flare/dist/flare.min.js"></script>
+  <!--<script src="/app/components/flare/dist/flare.min.js"></script>-->
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
 
   <script>
@@ -32,6 +32,43 @@
 
   <link href="/css/iosdevices.min.css" rel="stylesheet">
   <link href="/app/components/devices.css/assets/devices.min.css" rel="stylesheet">
-  <link href="/css/base.css" rel="stylesheet">
   <link href="/css/flat.device.css" rel="stylesheet">
+
+  <link href="/css/base.css" rel="stylesheet">
+  <link rel="stylesheet" href="/app/components/animate.css/animate.min.css">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="/js/application.js"></script>
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="/app/components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/app/components/wow/dist/wow.js"></script>
+  <script>
+  $(function(){
+  new WOW().init();
+  });
+  </script>
+
+  <script>
+    $(document).ready(function(){
+
+      // hide .navbar first
+      $("#top-bar").hide();
+
+      // fade in .navbar
+      $(function () {
+          $(window).scroll(function () {
+
+              // set distance user needs to scroll before we start fadeIn
+              if ($(this).scrollTop() > 100) {
+                  $('#top-bar').fadeIn();
+              } else {
+                  $('#top-bar').fadeOut();
+              }
+          });
+      });
+
+    });
+  </script>
 </head>
