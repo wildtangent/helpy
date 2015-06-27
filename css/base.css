@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-	padding-top: 100px;
+/*	padding-top: 100px;*/
 }
 
 h1 {
@@ -18,11 +18,42 @@ h2 {
 	margin-bottom: 60px;
 }
 
+hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#intro {
+  background-color: #03BDFB;
+  background-size:cover;
+  position:relative;
+  height:100vh;
+}
+
+#intro-header {
+  position:absolute;
+  top: 50%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);
+}
+
+.wow {
+  visibility: hidden;
+}
+
+.jumbotron.white {
+  background-color: white;
+}
+
 .navbar-brand.logo {
 	font-family: "Lobster";
 	font-size: 32px;
-	width: 300px;
-	
+	width: 200px;
+
 }
 
 .brand-mark {
@@ -30,7 +61,9 @@ h2 {
 	margin-right: 10px;
 }
 
-
+#main-panel {
+	margin-top: -30px
+}
 
 #top-bar {
 	color:  #fff;
@@ -38,15 +71,18 @@ h2 {
 	background-color: #fff;
 	border-bottom: 0px;
 	padding-bottom: 0px;
+	padding-top: 20px;
 }
 
 #top-bar.jumbotron {
-	padding-top: 25px;
-	
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(196,196,196,1);
 	-moz-box-shadow: 0px 0px 8px 0px rgba(196,196,196,1);
 	box-shadow: 0px 0px 12px 0px rgba(196,196,196,1);
 
+}
+
+.jumbotron {
+	margin-bottom: 0px;
 }
 
 #browser-bar {
@@ -62,15 +98,29 @@ h2 {
 	padding-bottom: 0px;
 }
 
+#more-features.jumbotron {
+	background-color: #fff;
+}
+
 #content-bar h1 {
 	font-weight: normal;
+}
+
+#demo-bar {
+	color: white;
+	background-color: #FF9C34;
+}
+
+#footer-bar {
+	color: #999;
+	background-color: #333;
 }
 
 .browser-window{
 	margin:20px;
 	margin-bottom: 0px;
 	border: 1px solid #eee;
-	width:80%;
+	width:100%;
 	height:100%;
 	display:inline-block;
 	border-radius:5px;
@@ -78,6 +128,15 @@ h2 {
 
 .function-row {
 	margin-bottom: 60px;
+}
+
+.feature-row {
+	margin-bottom: 40px;
+	height: 500px;
+}
+
+.device-container {
+	margin: 0 auto;
 }
 
 .more-features {
@@ -99,7 +158,7 @@ h2 {
   font-size: 300%;
   font-weight: bold;
   margin-top: 8px;
-  padding-left: 30px;
+  padding-left: 0px;
   padding-right: 60px;
 }
 
@@ -109,4 +168,169 @@ ol.carousel-indicators {
 
 #static-browser.browser-window {
 	width: 700px;
+}
+
+.middle > img {
+	margin: 0 auto;
+}
+
+.ios-device {
+	margin: 0 auto;
+}
+
+/*** MEDIA QUERIES ***/
+
+@media(max-width:767px){
+
+  .thelogo {
+    width: 60px;
+  }
+
+	.more-features {
+		margin-bottom: 25px;
+	}
+
+  .intro-h1 {
+    font-size: 18px;
+  }
+
+	.jumbotron h1 {
+		margin-bottom: 20px;
+		font-size: 30px;
+	}
+
+  .intro-h3 {
+    font-size: 16px;
+  }
+
+	.jumbotron h2 {
+		margin-bottom: 40px;
+		font-size: 18px;
+	}
+	.jumbotron h3 {
+		margin-top: 0px;
+		font-size: 14px
+	}
+	.jumbotron h4{
+
+	}
+	.jumbotron p {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.device-container {
+		padding-left: 0%;
+	}
+
+}
+
+@media(min-width:768px){
+
+  .thelogo {
+    width: 60px;
+  }
+
+	.jumbotron h1 {
+		margin-bottom: 20px;
+		font-size: 40px;
+	}
+	.jumbotron h2 {
+		margin-bottom: 40px;
+		font-size: 23px;
+	}
+	.jumbotron h3 {
+		font-size: 17px
+	}
+	.jumbotron h4{
+
+	}
+	.jumbotron p {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.middle {
+	  height: 200px;
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
+	}
+	.row.feature-row {
+    	min-height: 200px;
+	}
+	.phone-6--large {
+		width: 201px;
+		height: 414px;
+	}
+	.device-container {
+		padding-left: 0%;
+
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+@media(min-width:992px){
+
+  .thelogo {
+    width: 80px;
+  }
+
+	.middle {
+	  height: 300px;
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
+	}
+	.row.feature-row {
+    	min-height: 300px;
+	}
+	.phone-6--large {
+		width: 268px;
+		height: 552px;
+	}
+
+}
+
+@media(min-width:1200px){
+
+  .thelogo {
+    width: 120px;
+  }
+
+  .jumbotron h1 {
+		margin-bottom: 20px;
+		font-size: 60px;
+	}
+	.jumbotron h2 {
+		margin-bottom: 50px;
+		font-size: 30px;
+	}
+	.jumbotron h3 {
+		font-size: 24px
+	}
+	.jumbotron h4{
+
+	}
+	.jumbotron p {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+
+	.middle {
+	  height: 400px;
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
+	}
+
+	.row.feature-row {
+    	min-height: 400px;
+	}
+	.phone-6--large {
+		width: 268px;
+		height: 552px;
+	}
 }
