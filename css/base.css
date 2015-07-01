@@ -111,9 +111,18 @@ hr {
 	background-color: #FF9C34;
 }
 
+a#scroll-link.autoscroll {
+	color: white;
+}
+
 #footer-bar {
 	color: #999;
 	background-color: #333;
+}
+
+a.btn.btn-info {
+	width: 100%;
+	margin-top: 20px;
 }
 
 .browser-window{
