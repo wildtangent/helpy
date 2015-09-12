@@ -27,7 +27,7 @@ hr {
   background-color: #03BDFB;
   background-size:cover;
   position:relative;
-  height:100vh;
+  height:80vh;
 }
 
 #intro-header {
@@ -90,7 +90,7 @@ hr {
 }
 
 #browser-bar {
-  background-color: #fff;
+  background-color: #03BDFB;
   padding-top: 0px;
   margin-bottom: 0px;
 }
