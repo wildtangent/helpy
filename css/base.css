@@ -191,6 +191,16 @@ ol.carousel-indicators {
 	margin: 0 auto;
 }
 
+.social-icon-bar {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+}
+
 /*** MEDIA QUERIES ***/
 
 @media(max-width:767px){
