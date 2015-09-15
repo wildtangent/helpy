@@ -27,7 +27,7 @@ hr {
   background-color: #03BDFB;
   background-size:cover;
   position:relative;
-  height:80vh;
+  height:60vh;
 }
 
 #intro-header {
@@ -179,10 +179,6 @@ ol.carousel-indicators {
 	margin-bottom: -50px;
 }
 
-#static-browser.browser-window {
-	width: 700px;
-}
-
 .middle > img {
 	margin: 0 auto;
 }
@@ -245,6 +241,10 @@ ol.carousel-indicators {
 	.device-container {
 		padding-left: 0%;
 	}
+
+  #static-browser.browser-window {
+  	width: 700px;
+  }
 
 }
 
@@ -314,6 +314,11 @@ ol.carousel-indicators {
 		height: 552px;
 	}
 
+  #static-browser.browser-window {
+  	width: 850px;
+  }
+
+
 }
 
 @media(min-width:1200px){
@@ -356,4 +361,9 @@ ol.carousel-indicators {
 		width: 268px;
 		height: 552px;
 	}
+
+  #static-browser.browser-window {
+    width: 1100px;
+  }
+
 }
