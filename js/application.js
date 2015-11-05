@@ -10,7 +10,11 @@ $(document).ready(function(){
   });
 
   $(".demo-link").click(function(){
-    ga('send', 'event', 'Click', 'Demo')    
+    ga('send', 'event', 'Click', 'Demo')
+  });
+
+  $(".github-link").click(function(){
+    ga('send', 'event', 'Click', 'Github')
   });
 
 });
