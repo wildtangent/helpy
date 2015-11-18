@@ -27,7 +27,7 @@ hr {
   background-color: #03BDFB;
   background-size:cover;
   position:relative;
-  height:100vh;
+  height:60vh;
 }
 
 #intro-header {
@@ -61,8 +61,15 @@ hr {
 	margin-right: 10px;
 }
 
+div.post {
+  margin-bottom: 150px;
+}
 #main-panel {
 	margin-top: -30px
+}
+
+#main-panel.sub {
+	margin-top: 80px;
 }
 
 #top-bar {
@@ -86,7 +93,7 @@ hr {
 }
 
 #browser-bar {
-  background-color: #fff;
+  background-color: #03BDFB;
   padding-top: 0px;
   margin-bottom: 0px;
 }
@@ -175,16 +182,22 @@ ol.carousel-indicators {
 	margin-bottom: -50px;
 }
 
-#static-browser.browser-window {
-	width: 700px;
-}
-
 .middle > img {
 	margin: 0 auto;
 }
 
 .ios-device {
 	margin: 0 auto;
+}
+
+.social-icon-bar {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
 }
 
 /*** MEDIA QUERIES ***/
@@ -231,6 +244,10 @@ ol.carousel-indicators {
 	.device-container {
 		padding-left: 0%;
 	}
+
+  #static-browser.browser-window {
+  	width: 700px;
+  }
 
 }
 
@@ -300,6 +317,11 @@ ol.carousel-indicators {
 		height: 552px;
 	}
 
+  #static-browser.browser-window {
+  	width: 850px;
+  }
+
+
 }
 
 @media(min-width:1200px){
@@ -342,4 +364,9 @@ ol.carousel-indicators {
 		width: 268px;
 		height: 552px;
 	}
+
+  #static-browser.browser-window {
+    width: 1100px;
+  }
+
 }

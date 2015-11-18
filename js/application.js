@@ -8,4 +8,13 @@ $(document).ready(function(){
           scrollTop: $(scrollTarget).offset().top-40},'slow');
         });
   });
+
+  $(".demo-link").click(function(){
+    ga('send', 'event', 'Click', 'Demo')
+  });
+
+  $(".github-link").click(function(){
+    ga('send', 'event', 'Click', 'Github')
+  });
+
 });
