@@ -4,9 +4,8 @@ title: Helpy Blog
 permalink: /blog/
 ---
 
-<h1>Blog Posts</h1>
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+<span>{{ post.date | date_to_string }}</span>
+<p>{{ post.content }}</p>
+<hr/>
+{% endfor %}
