@@ -4,8 +4,6 @@ title: All Ticketing Features
 permalink: /blog/all-ticket-features/
 ---
 
-### All Ticketing Features
-
 Helpy Includes a full featured helpdesk, which keeps all your customer communications in one place, integrated with your email, and linked to your knowledgebase.  Here is a full list of current features:
 
 - integrated email
