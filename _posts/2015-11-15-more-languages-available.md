@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New languages: Support in Catalan, Chinese, Japanese and Estonian
+title: Support in Catalan, Chinese, Japanese and Estonian
 permalink: /blog/more-languages-available/
 ---
 
