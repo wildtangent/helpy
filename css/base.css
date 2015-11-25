@@ -210,9 +210,15 @@ ol.carousel-indicators {
   height: 40px;
 }
 
+
 /*** MEDIA QUERIES ***/
 
 @media(max-width:767px){
+
+  .feature-focus {
+    margin-bottom: 30px;
+    height: 250px;
+  }
 
   .thelogo {
     width: 60px;
@@ -267,6 +273,11 @@ ol.carousel-indicators {
 
 @media(min-width:768px){
 
+  .feature-focus {
+    margin-bottom: 30px;
+    height: 180px;
+  }
+
   .thelogo {
     width: 60px;
   }
@@ -297,7 +308,7 @@ ol.carousel-indicators {
 	  flex-direction: column;
 	}
 	.row.feature-row {
-    	min-height: 200px;
+    	min-height: 400px;
 	}
 	.phone-6--large {
 		width: 201px;
@@ -313,6 +324,11 @@ ol.carousel-indicators {
 
 @media(min-width:992px){
 
+  .feature-focus {
+    margin-bottom: 30px;
+    height: 250px;
+  }
+
   .thelogo {
     width: 80px;
   }
@@ -324,7 +340,7 @@ ol.carousel-indicators {
 	  flex-direction: column;
 	}
 	.row.feature-row {
-    	min-height: 300px;
+    	min-height: 200px;
 	}
 	.phone-6--large {
 		width: 268px;
@@ -339,6 +355,11 @@ ol.carousel-indicators {
 }
 
 @media(min-width:1200px){
+
+  .feature-focus {
+    margin-bottom: 30px;
+    height: 300px;
+  }
 
   .thelogo {
     width: 120px;
@@ -372,7 +393,7 @@ ol.carousel-indicators {
 	}
 
 	.row.feature-row {
-    	min-height: 400px;
+    	min-height: 200px;
 	}
 	.phone-6--large {
 		width: 268px;
