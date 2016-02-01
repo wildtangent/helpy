@@ -4,7 +4,7 @@ title: Support in Catalan, Chinese, Japanese and Estonian
 permalink: /blog/more-languages-available/
 ---
 
-Great news!  A super group of [contributors](http://support.helpy.io/knowledgebase/13-About-Helpy/docs/6-Contributors-to-Helpy) have helped to internationalize Helpy, with new support for several languages:
+Great news!  A super group of [contributors](http://support.helpy.io/en/knowledgebase/13-About-Helpy/docs/6-Contributors-to-Helpy) have helped to internationalize Helpy, with new support for several languages:
 
 - Catalan
 - Chinese (both simplified and traditional)
