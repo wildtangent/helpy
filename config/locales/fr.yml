@@ -189,6 +189,10 @@ fr:
   # Communities
   new_community: Nouvelle Communauté
   create_new_community: Créer une Nouvelle Communauté
+  layout_select: Sélectionnez Format
+  layout_table: Classement
+  layout_grid: Disposition de la grille
+  layout_qna: Question et Réponse
 
   # Mail messages
   hello: "Hello %{user_name}"
@@ -210,6 +214,7 @@ fr:
         cell_phone: Cell
         city: City
         state: State
+        signature: Signature
       topic:
         name: Sujet
       post:
@@ -234,6 +239,9 @@ fr:
         name: Nom
         description: Description
         private: Confidential
+        layout: Disposition
+        allow_topic_voting: Autoriser le vote des sujets?
+        allow_post_voting: Autoriser le vote des messages?
 
     helpers:
       submit:
