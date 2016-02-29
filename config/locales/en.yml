@@ -27,7 +27,7 @@ en:
   no_button: 'No'
   yes_helped: 'Great!! Thanks for the feedback!'
   no_helped: "We're sorry this didn't help you.  Please contact us for more help!"
-  
+
   # Search
   search_placeholder: "Enter a keyword, topic, or question"
   no_results: "No Results Found, Please try your search again!"
@@ -187,6 +187,8 @@ en:
   published_content: "Published"
   additional_settings: "Additional Settings"
   content_status: "Content Status"
+  convert_content: 'Turn post into content'
+  upload_image: 'Upload Image'
 
   # Communities
   new_community: Create New Community

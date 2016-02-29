@@ -16,7 +16,7 @@ fr:
   register: "Signer"
   back_to: "Retour à"
   welcome_back: "Bienvenue à nouveau %{username}"
-  your_profile: "Your Profile"
+  your_profile: "Votre profil"
   your_tickets: "Vos billets"
   locale: "Locale"
   change_your_locale: "Changez votre Locale"
@@ -25,6 +25,8 @@ fr:
   did_this_help: "Cela at-il aidé à résoudre votre problème?"
   yes_button: 'Oui'
   no_button: 'Non'
+  yes_helped: 'Génial!! Merci pour les commentaires!'
+  no_helped: "Nous sommes désolés cela n'a pas vous aider. S'il vous plaît nous contacter pour plus d'aide!"
 
   # Search
   search_placeholder: "Entrez un mot-clé, sujet ou une question"
@@ -121,7 +123,7 @@ fr:
   public: public
   save_changes: Enregistrez les modifications
 
-  # Multiple Discussion controls
+  # Discussion controls
   change_status: Changer le Statut
   status: Statut
   mark_closed: Marque Résolu
@@ -134,6 +136,12 @@ fr:
     two: "2 messages sélectionnés"
     other: "%{count} messages sélectionnés"
 
+  # Discussion messages
+  reopen_message: "This message has been reopened by the support staff"
+  close_message: "This ticket has been closed by the support staff."
+  trash_message: "This ticket has been deleted."
+  assigned_message: "Discussion has been transferred to %{assigned_to}."
+
   # User Admin
   contact_info: Informations de contact
   social_info: Médias Sociaux
@@ -143,14 +151,8 @@ fr:
 
   # User search results
   users_found:
-    one: "1 user was found named %{query}"
-    other: "%{count} users were found named %{query}"
-
-  # Discussion messages
-  reopen_message: "This message has been reopened by the support staff"
-  close_message: "This ticket has been closed by the support staff."
-  trash_message: "This ticket has been deleted."
-  assigned_message: "Discussion has been transferred to %{assigned_to}."
+    one: "1 utilisateur a été trouvé nommé %{query}"
+    other: "%{count} utilisateurs ont été trouvés nommés %{query}"
 
   # Discussion View
   asked_a_question: "%{user_name} a posé une question..."
@@ -161,8 +163,8 @@ fr:
   reply: Réponse
   internal_note: Note Interne
   upvote:
-    one: "Upvote | %{count}"
-    other: "Upvote | %{count}"
+    one: "Votez | %{count}"
+    other: "Votez | %{count}"
 
   # Content
   new_category: Nouvelle Catégorie
@@ -185,6 +187,7 @@ fr:
   published_content: "Publié"
   additional_settings: "Paramètres additionnels"
   content_status: "Statut de contenu"
+  convert_content: 'Créer un contenu de poste'
 
   # Communities
   new_community: Nouvelle Communauté
@@ -195,13 +198,13 @@ fr:
   layout_qna: Question et Réponse
 
   # Mail messages
-  hello: "Hello %{user_name}"
-  new_user: "Thank you for contacting us.  Your message has been received by our support team and we will be in touch with you shortly with a response."
-  account_generated: "An account has been generated for you. To sign in, please use this link:"
-  above_this_line: "Make sure your reply appears above this line"
-  message_id: "Message ID"
-  message_response: "The following message has been posted in response to your question:"
-  view_online: "View this online:"
+  hello: "Bonjour %{user_name}"
+  new_user: "Merci de nous contacter. Votre message a été reçu par notre équipe de soutien et nous serons en contact avec vous sous peu avec une réponse."
+  account_generated: "Un compte a été généré pour vous. Pour vous connecter, s'il vous plaît utilisez ce lien:"
+  above_this_line: "Assurez-vous que votre réponse apparaît au-dessus de cette ligne."
+  message_id: "ID de message"
+  message_response: "Le message suivant a été posté en réponse à votre question:"
+  view_online: "Voir cette ligne:"
 
   activerecord:
     attributes:
@@ -209,11 +212,11 @@ fr:
         email: Email
         password: Mot de passe
         name: Nom
-        company: Company
-        work_phone: Work
-        cell_phone: Cell
-        city: City
-        state: State
+        company: Compagnie
+        work_phone: Téléphone de travail
+        cell_phone: Téléphone portable
+        city: Cité
+        state: Etat
         signature: Signature
       topic:
         name: Sujet
