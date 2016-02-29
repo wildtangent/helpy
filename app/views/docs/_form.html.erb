@@ -4,8 +4,6 @@
   <% else %>
     <%= f.hidden_field("category_id", value: @doc.category_id) %>
   <% end %>
-  <%#= render 'admin/quill_editor' #uncomment this line if you prefer to use the quill editor %>
-  <%#= f.hidden_field :body #uncomment this line if you prefer to use the quill editor %>
   <%= f.trix_editor :body, value: @doc.read_translated_attribute(:body) %>
   <% unless params[:lang] == "#{I18n.locale}" || @doc.translations.where(locale: locale).count > 0 %>
   <script>
