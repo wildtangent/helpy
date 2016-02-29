@@ -1,3 +1,9 @@
+<script>
+  Helpy.yesHelped = '<%= j t(:yes_helped) %>';
+  Helpy.noHelped = '<%= j t(:no_helped) %>';
+  Helpy.contactUs = '<a href="<%= new_topic_path(doc_id: @doc.id) %>" class="btn btn-primary btn-lg get-help-button"><%= j t(:start_discussion) %></a>';
+</script>
+
 <div class="row content-row">
   <div class="col-md-3 hidden-xs hidden-sm">
     <div id="written-by" class="doc-meta">
