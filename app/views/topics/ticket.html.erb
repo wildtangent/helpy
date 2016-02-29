@@ -4,7 +4,7 @@
 
 
     <div class="doc-meta">
-      <div class="more-important meta-header">Ticket Number:</div>
+      <div class="more-important meta-header"><%= t('ticket_number', default: "Ticket Number") %>:</div>
       <div class="less-important"><%= @topic.id %></div>
     </div>
 
@@ -21,7 +21,7 @@
     </div>
 
     <div class="doc-meta">
-      <div class="more-important meta-header">Opened On:</div>
+      <div class="more-important meta-header"><%= t('created_on', default: "Created:") %>:</div>
       <div class="less-important"><%= @topic.created_at %></div>
     </div>
 
